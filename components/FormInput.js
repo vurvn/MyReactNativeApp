@@ -7,6 +7,7 @@ export default function FormInput({labelName = 'empty', ...rest}) {
   return (
     <TextInput
       label={labelName}
+      placeholder={labelName}
       style={styles.input}
       numberOfLines={1}
       {...rest}
